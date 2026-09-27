@@ -1,5 +1,3 @@
-# Always-on model reference: https://dev.synthetic.new/docs/api/models#always-on-models
-# Synthetic lists hf:Qwen/Qwen3.8-27B with effort controls low|medium|xhigh.
 base_model = "alibaba/qwen3.8-27b"
 reasoning_options = [{ type = "effort", values = ["low", "medium", "xhigh"] }]
 
